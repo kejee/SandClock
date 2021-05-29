@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1827E0202661D3C5001711C9 /* KKSandClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827E01B2661D3C5001711C9 /* KKSandClock.m */; };
+		1827E0212661D3C5001711C9 /* SandClockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827E01C2661D3C5001711C9 /* SandClockLayer.m */; };
+		1827E0222661D3C5001711C9 /* sandclock_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1827E01E2661D3C5001711C9 /* sandclock_bg@3x.png */; };
+		1827E0232661D3C5001711C9 /* sandclock_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1827E01F2661D3C5001711C9 /* sandclock_bg@2x.png */; };
+		186A9627265DF24300B6386C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A9626265DF24300B6386C /* AppDelegate.m */; };
+		186A962A265DF24300B6386C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A9629265DF24300B6386C /* SceneDelegate.m */; };
+		186A962D265DF24300B6386C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A962C265DF24300B6386C /* ViewController.m */; };
+		186A9630265DF24300B6386C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A962E265DF24300B6386C /* Main.storyboard */; };
+		186A9632265DF25E00B6386C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186A9631265DF25E00B6386C /* Assets.xcassets */; };
+		186A9635265DF25E00B6386C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A9633265DF25E00B6386C /* LaunchScreen.storyboard */; };
+		186A9638265DF25E00B6386C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A9637265DF25E00B6386C /* main.m */; };
+		186A9642265DF25E00B6386C /* SandClockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A9641265DF25E00B6386C /* SandClockDemoTests.m */; };
+		186A964D265DF25E00B6386C /* SandClockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A964C265DF25E00B6386C /* SandClockDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186A963E265DF25E00B6386C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186A961A265DF24300B6386C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186A9621265DF24300B6386C;
+			remoteInfo = SandClockDemo;
+		};
+		186A9649265DF25E00B6386C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186A961A265DF24300B6386C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186A9621265DF24300B6386C;
+			remoteInfo = SandClockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1827E01A2661D3C5001711C9 /* SandClockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandClockLayer.h; sourceTree = "<group>"; };
+		1827E01B2661D3C5001711C9 /* KKSandClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSandClock.m; sourceTree = "<group>"; };
+		1827E01C2661D3C5001711C9 /* SandClockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandClockLayer.m; sourceTree = "<group>"; };
+		1827E01D2661D3C5001711C9 /* KKSandClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSandClock.h; sourceTree = "<group>"; };
+		1827E01E2661D3C5001711C9 /* sandclock_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sandclock_bg@3x.png"; sourceTree = "<group>"; };
+		1827E01F2661D3C5001711C9 /* sandclock_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sandclock_bg@2x.png"; sourceTree = "<group>"; };
+		186A9622265DF24300B6386C /* SandClockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandClockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A9625265DF24300B6386C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		186A9626265DF24300B6386C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		186A9628265DF24300B6386C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		186A9629265DF24300B6386C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		186A962B265DF24300B6386C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		186A962C265DF24300B6386C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		186A962F265DF24300B6386C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186A9631265DF25E00B6386C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186A9634265DF25E00B6386C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186A9636265DF25E00B6386C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186A9637265DF25E00B6386C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186A963D265DF25E00B6386C /* SandClockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandClockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A9641265DF25E00B6386C /* SandClockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandClockDemoTests.m; sourceTree = "<group>"; };
+		186A9643265DF25E00B6386C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186A9648265DF25E00B6386C /* SandClockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandClockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A964C265DF25E00B6386C /* SandClockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandClockDemoUITests.m; sourceTree = "<group>"; };
+		186A964E265DF25E00B6386C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186A961F265DF24300B6386C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A963A265DF25E00B6386C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A9645265DF25E00B6386C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1827E0192661D3C5001711C9 /* KKSandClock */ = {
+			isa = PBXGroup;
+			children = (
+				1827E01D2661D3C5001711C9 /* KKSandClock.h */,
+				1827E01B2661D3C5001711C9 /* KKSandClock.m */,
+				1827E01F2661D3C5001711C9 /* sandclock_bg@2x.png */,
+				1827E01E2661D3C5001711C9 /* sandclock_bg@3x.png */,
+				1827E01A2661D3C5001711C9 /* SandClockLayer.h */,
+				1827E01C2661D3C5001711C9 /* SandClockLayer.m */,
+			);
+			path = KKSandClock;
+			sourceTree = "<group>";
+		};
+		186A9619265DF24300B6386C = {
+			isa = PBXGroup;
+			children = (
+				186A9624265DF24300B6386C /* SandClockDemo */,
+				186A9640265DF25E00B6386C /* SandClockDemoTests */,
+				186A964B265DF25E00B6386C /* SandClockDemoUITests */,
+				186A9623265DF24300B6386C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186A9623265DF24300B6386C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186A9622265DF24300B6386C /* SandClockDemo.app */,
+				186A963D265DF25E00B6386C /* SandClockDemoTests.xctest */,
+				186A9648265DF25E00B6386C /* SandClockDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186A9624265DF24300B6386C /* SandClockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1827E0192661D3C5001711C9 /* KKSandClock */,
+				186A9625265DF24300B6386C /* AppDelegate.h */,
+				186A9626265DF24300B6386C /* AppDelegate.m */,
+				186A9628265DF24300B6386C /* SceneDelegate.h */,
+				186A9629265DF24300B6386C /* SceneDelegate.m */,
+				186A962B265DF24300B6386C /* ViewController.h */,
+				186A962C265DF24300B6386C /* ViewController.m */,
+				186A962E265DF24300B6386C /* Main.storyboard */,
+				186A9631265DF25E00B6386C /* Assets.xcassets */,
+				186A9633265DF25E00B6386C /* LaunchScreen.storyboard */,
+				186A9636265DF25E00B6386C /* Info.plist */,
+				186A9637265DF25E00B6386C /* main.m */,
+			);
+			path = SandClockDemo;
+			sourceTree = "<group>";
+		};
+		186A9640265DF25E00B6386C /* SandClockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				186A9641265DF25E00B6386C /* SandClockDemoTests.m */,
+				186A9643265DF25E00B6386C /* Info.plist */,
+			);
+			path = SandClockDemoTests;
+			sourceTree = "<group>";
+		};
+		186A964B265DF25E00B6386C /* SandClockDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				186A964C265DF25E00B6386C /* SandClockDemoUITests.m */,
+				186A964E265DF25E00B6386C /* Info.plist */,
+			);
+			path = SandClockDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186A9621265DF24300B6386C /* SandClockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A9651265DF25E00B6386C /* Build configuration list for PBXNativeTarget "SandClockDemo" */;
+			buildPhases = (
+				186A961E265DF24300B6386C /* Sources */,
+				186A961F265DF24300B6386C /* Frameworks */,
+				186A9620265DF24300B6386C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandClockDemo;
+			productName = SandClockDemo;
+			productReference = 186A9622265DF24300B6386C /* SandClockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186A963C265DF25E00B6386C /* SandClockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A9654265DF25E00B6386C /* Build configuration list for PBXNativeTarget "SandClockDemoTests" */;
+			buildPhases = (
+				186A9639265DF25E00B6386C /* Sources */,
+				186A963A265DF25E00B6386C /* Frameworks */,
+				186A963B265DF25E00B6386C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186A963F265DF25E00B6386C /* PBXTargetDependency */,
+			);
+			name = SandClockDemoTests;
+			productName = SandClockDemoTests;
+			productReference = 186A963D265DF25E00B6386C /* SandClockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186A9647265DF25E00B6386C /* SandClockDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A9657265DF25E00B6386C /* Build configuration list for PBXNativeTarget "SandClockDemoUITests" */;
+			buildPhases = (
+				186A9644265DF25E00B6386C /* Sources */,
+				186A9645265DF25E00B6386C /* Frameworks */,
+				186A9646265DF25E00B6386C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186A964A265DF25E00B6386C /* PBXTargetDependency */,
+			);
+			name = SandClockDemoUITests;
+			productName = SandClockDemoUITests;
+			productReference = 186A9648265DF25E00B6386C /* SandClockDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186A961A265DF24300B6386C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					186A9621265DF24300B6386C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					186A963C265DF25E00B6386C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 186A9621265DF24300B6386C;
+					};
+					186A9647265DF25E00B6386C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 186A9621265DF24300B6386C;
+					};
+				};
+			};
+			buildConfigurationList = 186A961D265DF24300B6386C /* Build configuration list for PBXProject "SandClockDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186A9619265DF24300B6386C;
+			productRefGroup = 186A9623265DF24300B6386C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186A9621265DF24300B6386C /* SandClockDemo */,
+				186A963C265DF25E00B6386C /* SandClockDemoTests */,
+				186A9647265DF25E00B6386C /* SandClockDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186A9620265DF24300B6386C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A9635265DF25E00B6386C /* LaunchScreen.storyboard in Resources */,
+				1827E0232661D3C5001711C9 /* sandclock_bg@2x.png in Resources */,
+				186A9632265DF25E00B6386C /* Assets.xcassets in Resources */,
+				186A9630265DF24300B6386C /* Main.storyboard in Resources */,
+				1827E0222661D3C5001711C9 /* sandclock_bg@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A963B265DF25E00B6386C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A9646265DF25E00B6386C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186A961E265DF24300B6386C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827E0212661D3C5001711C9 /* SandClockLayer.m in Sources */,
+				186A962D265DF24300B6386C /* ViewController.m in Sources */,
+				1827E0202661D3C5001711C9 /* KKSandClock.m in Sources */,
+				186A9627265DF24300B6386C /* AppDelegate.m in Sources */,
+				186A9638265DF25E00B6386C /* main.m in Sources */,
+				186A962A265DF24300B6386C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A9639265DF25E00B6386C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A9642265DF25E00B6386C /* SandClockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A9644265DF25E00B6386C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A964D265DF25E00B6386C /* SandClockDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186A963F265DF25E00B6386C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186A9621265DF24300B6386C /* SandClockDemo */;
+			targetProxy = 186A963E265DF25E00B6386C /* PBXContainerItemProxy */;
+		};
+		186A964A265DF25E00B6386C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186A9621265DF24300B6386C /* SandClockDemo */;
+			targetProxy = 186A9649265DF25E00B6386C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186A962E265DF24300B6386C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186A962F265DF24300B6386C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186A9633265DF25E00B6386C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186A9634265DF25E00B6386C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186A964F265DF25E00B6386C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		186A9650265DF25E00B6386C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186A9652265DF25E00B6386C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RYVUTWMQKX;
+				INFOPLIST_FILE = SandClockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgyun.SandClockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.lgyun;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186A9653265DF25E00B6386C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RYVUTWMQKX;
+				INFOPLIST_FILE = SandClockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgyun.SandClockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.lgyun;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		186A9655265DF25E00B6386C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SandClockDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgyun.SandClockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandClockDemo.app/SandClockDemo";
+			};
+			name = Debug;
+		};
+		186A9656265DF25E00B6386C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SandClockDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgyun.SandClockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandClockDemo.app/SandClockDemo";
+			};
+			name = Release;
+		};
+		186A9658265DF25E00B6386C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SandClockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgyun.SandClockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SandClockDemo;
+			};
+			name = Debug;
+		};
+		186A9659265DF25E00B6386C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SandClockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgyun.SandClockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SandClockDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186A961D265DF24300B6386C /* Build configuration list for PBXProject "SandClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A964F265DF25E00B6386C /* Debug */,
+				186A9650265DF25E00B6386C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186A9651265DF25E00B6386C /* Build configuration list for PBXNativeTarget "SandClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A9652265DF25E00B6386C /* Debug */,
+				186A9653265DF25E00B6386C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186A9654265DF25E00B6386C /* Build configuration list for PBXNativeTarget "SandClockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A9655265DF25E00B6386C /* Debug */,
+				186A9656265DF25E00B6386C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186A9657265DF25E00B6386C /* Build configuration list for PBXNativeTarget "SandClockDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A9658265DF25E00B6386C /* Debug */,
+				186A9659265DF25E00B6386C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186A961A265DF24300B6386C /* Project object */;
+}
